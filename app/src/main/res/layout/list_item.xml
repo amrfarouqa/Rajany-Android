@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="22dp">
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:background="@drawable/overlay"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!-- Name Label -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Color Pick" />
+
+        <TextView
+            android:id="@+id/colorCode"
+            android:layout_width="106dp"
+            android:layout_height="100dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="0.42" />
+
+        <ImageView
+            android:id="@+id/ColorPickImg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@color/bg_bubble_self" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ColorDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageviewLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:srcCompat="@color/cardview_light_background" />
+
+</LinearLayout>

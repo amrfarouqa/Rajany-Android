@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "632560628611",
+    "firebase_url": "https://rajany-8de6d.firebaseio.com",
+    "project_id": "rajany-8de6d",
+    "storage_bucket": "rajany-8de6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632560628611:android:4894be980ae1e360",
+        "android_client_info": {
+          "package_name": "com.rajany.rajdy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632560628611-iu24uinq4rm69rkpkstn686jj12up2h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDSidNalWLPjthZvxFZC0ZogPXJ3FdxjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

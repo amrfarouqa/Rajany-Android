@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:id="@+id/RelLay"
+    android:background="@drawable/bg1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ImgBg"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/splashh" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Layout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="114dp"
+            android:layout_height="119dp"
+            android:id="@+id/LogoImg"
+            android:src="@drawable/logo"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LogoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="#000000"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="Rajany"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Your Lifestyle Accepts No Compromises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView46"
+        android:background="@color/btn_logut_bg"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/LogoText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

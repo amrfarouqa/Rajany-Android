@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.farouk.amr.rd.Main"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:src="@drawable/contacts"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:id="@+id/Contact" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Contact Us"
+                        android:textColor="#FF000000"
+                        android:textSize="24sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="9 El Nozha St., Heliopolis, Cairo, Egypt, 11861"
+                        android:textColor="#FF000000"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center"
+                        android:text="Mon-Thu: 9:00 am - 5:00 pm"
+                        android:textColor="#FF000000"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center"
+                        android:text="Sun: 9:00 am - 5:00 pm"
+                        android:textColor="#FF000000"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Phone: (+202) 22 91 54 60 – (+202) 24 18 88 12"
+                        android:textColor="#FF000000"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Mobile: (+2) 010 50 0 35 35 – (+2) 019 38 3 11 11"
+                        android:textColor="#FF000000"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.35"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="rajanydesigns@gmail.com"
+                android:textColor="#FF000000"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.29"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Rajany Facebook Page"
+                android:textColor="#FF000000"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/site"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.29"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Rajany Website"
+                android:textColor="#FF000000"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

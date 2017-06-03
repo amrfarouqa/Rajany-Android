@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Rajany</string>
+    <string name="facebook_app_id">1112567492147031</string>
+    <string name="about">An accomplished Architect And Interior Designer for over more than <b>15 years</b>... His diverse design experience includes various commercial and residential projects.</string>
+    <string name="about1">Ayman Ferjany, is owner and principal of Rajany Designs, an experienced and specialized design firm located in Cairo, Egypt.</string>
+    <string name="about2">His commercial work encompasses club and amenity centers, restaurants, automobile showrooms and corporate offices, while his residential work includes custom and model homes, from new construction to remodeling design.</string>
+    <string name="about3">Ayman opened his first design firm in 1997. Over the past 15 years, he has led the vision and goals for Rajany Designs and the firm has flourished into one of the respected and diverse design firms.</string>
+    <string name="about4">Our staff includes a talented, educated and experienced design team with over 15 years of combined design experience. Our designers participate regularly in continuing education classes and frequently attend professional trade shows and design conferences to bring current design trends, technology and best business practices to our clients. Our administrative support staff works closely with the design team to provide our clients a professionally managed and highly detailed process.</string>
+    <string name="careersintro">Working @ Rajany Designs:</string>
+    <string name="careersintrobody">As an architectural firm, Rajany Designs is active in the broadest fields of architecture. Our project portfolio covers every aspect of architecture and design, ranging from small to large scale projects, research and theory. The atmosphere within our office is multidisciplinary and ambitious, but also open, non hierarchical, team based and friendly, with attention to personal well being, knowledge development and career planning.</string>
+    <string name="applying1">Applying to Rajany Designs:</string>
+    <string name="applyin2">When vacancies arise, Rajany Designs is always interested in offering positions to exceptional architects and technicians who are committed to high quality design. We currently have a wide range of projects providing front-end design opportunities for talented individuals. Rajany Designs is always interested in motivated people with an enthusiastic approach and a high profile and experience in designing, rendering, 3D modeling, technical knowledge, (building) coordination. Our aim is a long term commitment and durable employment. We don’t have vacancies all the time, but applications are always welcome. Please send digital applications only (Arabic/English) via email (info@rajany.com).</string>
+    <string name="application1">Applications (digital) should include:</string>
+    <string name="application2">Visuals of your work (designs, technical drawings) and CV (including personal data, experience, and software knowledge).</string>
+    <string name="req1">Requirements:</string>
+    <string name="req2">Good knowledge of English.
+Exceptional CAD/3D skills and interest in the latest developments.
+Please be clear in your communications and put your name on all the material you send us, so things won’t get lost. Give us an as broad as possible overview of your experience and knowledge. Thorough technical knowledge and practical building experience is much appreciated. Response will normally take up to two weeks and longer during holidays</string>
+
+    <string name="belief1">Vision, Passion, Style</string>
+    <string name="belief11">we are an experienced and specialized Residential and Hospitality Interior Design Firm dedicated to creating distinct interior environments in which we live, work and play.</string>
+    <string name="belief2">Quality, Value, Expertise</string>
+    <string name="belief22">we deliver quality, value and performance driven design based on years of experience, education and dedication to professional Interior Design.</string>
+    <string name="belief3">Joy, Comfort, Life</string>
+    <string name="belief33">from spirited entertaining to intimate relaxation, an environment that fits your needs is the ultimate luxury.</string>
+    <string name="belief4">From Start to Finish</string>
+    <string name="belief44">we provide turn-key planning, design details, construction drawings, interior finishes, furniture and accessory selection, procurement and installation.</string>
+    <string name="belief5">Tailored for you</string>
+    <string name="belief55">we create design solutions for custom homes and remodeling projects, condominiums, amenity centers and clubhouses to express your sensibilities and meet your specific needs.</string>
+    <string name="belief6">Investment in Value</string>
+    <string name="belief66">An investment in design provides value and will create a place that supports your business, family and life for years to come.</string>
+    <string name="belief7">Exceptional Results</string>
+    <string name="belief77">we focus on delivering the quality and value of your project within your schedule and budget that puts your expectations first.</string>
+    <string name="belief8">Together with Teamwork</string>
+    <string name="belief88">we seamlessly integrate Interior Design and Architecture in a coordinated process involving the Client, the design team and construction professionals.</string>
+    <string name="belief9">Your Style, Your Needs</string>
+    <string name="belief99">From timeless classics to the latest trends we will find the right selections for your style and your interior design projects.</string>
+    <string name="belief10">Expect the Best</string>
+    <string name="belief1010">With studio offices, Rajany Designs provides the vision, the design and the process to reach your goals!</string>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_network_gallery">NetworkGalleryActivity</string>
+    <string name="title_activity_sd_card_gallery">SdCardGalleryActivity</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Sign Me In.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Rajany Designs</string>
+    <string name="slide_1_desc">Your Lifestyle Accepts No Compromises!</string>
+
+    <string name="slide_2_title">Style</string>
+    <string name="slide_2_desc">we are an experienced and specialized Residential and Hospitality Interior Design Firm dedicated to creating distinct interior environments in which we live, work and play.</string>
+
+    <string name="slide_3_title">Quality</string>
+    <string name="slide_3_desc">we deliver quality, value and performance driven design based on years of experience, education and dedication to professional Interior Design.</string>
+
+    <string name="slide_4_title">Expertise</string>
+    <string name="slide_4_desc">we provide turn-key planning, design details, construction drawings, interior finishes, furniture and accessory selection, procurement and installation.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="err_msg_name">Enter full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
+    <string name="action_logout">Logout</string>
+
+
+    <string name="nav_item_home">PROFILE</string>
+    <string name="nav_item_about">ABOUT</string>
+    <string name="nav_item_belief">BELIEF</string>
+    <string name="nav_item_careers">CAREERS</string>
+    <string name="nav_item_services">SERVICES</string>
+    <string name="nav_item_contact">CONTACT</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_belief</item>
+        <item>@string/nav_item_careers</item>
+        <item>@string/nav_item_services</item>
+        <item>@string/nav_item_contact</item>
+
+    </string-array>
+
+    <string name="title_profile">PROFILE</string>
+    <string name="title_about">ABOUT</string>
+    <string name="title_belief">BELIEF</string>
+    <string name="title_careers">CAREERS</string>
+    <string name="title_services">SERVICES</string>
+    <string name="title_contacts">CONTACTS</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="welcome_msg">Welcome!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">Invite</string>
+    <string name="invitation_message">Please join me for a Rajany chatbook</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">Rajany Chatbook Invite</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
+
+    <string name="menu_login">Log in</string>
+    <string name="menu_logout">Log out</string>
+    <string name="login_label">Log In</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="send_text">Send</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+    <string name="title_sign_in">Welcome</string>
+    <string name="heading_recent">Recent</string>
+    <string name="heading_my_posts">My Posts</string>
+    <string name="heading_my_top_posts">My Top Posts</string>
+
+</resources>

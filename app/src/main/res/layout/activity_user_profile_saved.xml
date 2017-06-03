@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+    <!-- Main ListView
+         Always give id value as list(@android:id/list)
+    -->
+    <TextView
+        android:id="@+id/te"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textStyle="normal|bold"
+        android:gravity="center"
+        android:text="Saved Items"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        android:background="@color/btn_logut_bg"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-smallcaps" />
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

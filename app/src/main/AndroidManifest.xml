@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajany.rajdy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <!-- END Added for GCM -->
+    <application
+        android:name=".classes.FeedAppController"
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".classes.Splash"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".friendlychat.chatMain"
+            android:theme="@style/MyMaterialTheme"
+            android:label="Rajany Chatbook">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="friendlychat.firebase.google.com"
+                    android:pathPrefix="/message"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".friendlychat.SignInActivity"
+            android:theme="@style/MyMaterialTheme"
+            android:label="Rajany Chatbook"/>
+
+        <service
+            android:name=".friendlychat.MyFirebaseMessagingService"
+            android:exported="false"
+            android:label="Rajany Chatbook">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".friendlychat.MyFirebaseInstanceIdService"
+            android:exported="false"
+            android:label="Rajany Chatbook">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".company.about"
+            android:screenOrientation="portrait"
+            android:label="Rajany About"/>
+        <activity
+            android:name=".services.services"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_admin"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_desprog"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_develop"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_docum"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_impl"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_post"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_present"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".services.services_meeting"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".company.contact"
+            android:screenOrientation="portrait"
+            android:label="Rajany Contact"/>
+        <activity
+            android:name=".auth.main_login"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ideabook_main.ideas_baby"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Baby And Kids"/>
+        <activity
+            android:name=".tabs.TabsMain"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo" />
+        <activity
+            android:name=".profilefragment.fragment_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".colorbook_main.colorbook_colors_picker"
+            android:screenOrientation="portrait"
+            android:label="Rajany Color Picker"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_picks_viewer_add"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:label="Rajany Color Picks Viewer"/>
+        <activity
+            android:name=".ideabook_main.ideas_dining"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Dining"/>
+        <activity
+            android:name=".auth.main_regist"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".ideabook_main.ideas_fireplace"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Fireplace"/>
+        <activity
+            android:name=".ideabook_main.ideas_bathroom"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Bathroom"/>
+        <activity
+            android:name=".ideabook_main.ideas_bedroom"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Bedroom"/>
+        <activity
+            android:name=".ideabook_main.ideas_furniture"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Furniture"/>
+        <activity
+            android:name=".ideabook_main.ideas_gym"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Gym"/>
+        <activity
+            android:name=".ideabook_main.ideas_entry"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Entry"/>
+        <activity
+            android:name=".ideabook_viewer.ideabook"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Ideabook"/>
+        <activity
+            android:name=".tabs.Home"
+            android:screenOrientation="portrait"
+            android:label="Rajany Home"/>
+        <activity
+            android:name=".tabs.Partnership"
+            android:screenOrientation="portrait"
+            android:label="Rajany Partnership"/>
+        <activity
+            android:name=".classes.FeedItem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profilefragment.fragment_main_settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".company.careers"
+            android:screenOrientation="portrait"
+            android:label="Rajany Careers"/>
+        <activity
+            android:name=".company.beliefs"
+            android:screenOrientation="portrait"
+            android:label="Rajany Beliefs"/>
+        <activity
+            android:name=".classes.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".profilefragment.fragment_about"
+            android:screenOrientation="portrait"
+            android:label="Rajany About"/>
+        <activity
+            android:name=".profilefragment.fragment_belief"
+            android:screenOrientation="portrait"
+            android:label="Rajany Beliefs"/>
+        <activity
+            android:name=".profilefragment.fragment_careers"
+            android:screenOrientation="portrait"
+            android:label="Rajany Careers"/>
+        <activity
+            android:name=".profilefragment.fragment_services"
+            android:screenOrientation="portrait"
+            android:label="Rajany Services"/>
+        <activity
+            android:name=".profilefragment.fragment_contact"
+            android:screenOrientation="portrait"
+            android:label="Rajany Contact"/>
+        <activity
+            android:name=".ideabook_main.ideas_hall"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Hall"/>
+        <activity
+            android:name=".ideabook_main.ideas_kitchen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Kitchen"/>
+        <activity
+            android:name=".ideabook_main.ideas_interior"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Interior"/>
+        <activity
+            android:name=".ideabook_main.ideas_laundry"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Laundry"/>
+        <activity
+            android:name=".ideabook_main.ideas_lighting"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Lighting"/>
+        <activity
+            android:name=".ideabook_main.ideas_living"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Living"/>
+        <activity
+            android:name=".ideabook_main.ideas_office"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Office"/>
+        <activity
+            android:name=".ideabook_main.ideas_outdoor"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Outdoor"/>
+        <activity
+            android:name=".ideabook_main.ideas_pool"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Pool"/>
+        <activity
+            android:name=".ideabook_main.ideas_restaurant"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Restaurant"/>
+        <activity
+            android:name=".ideabook_main.ideas_staircase"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Staircase"/>
+        <activity
+            android:name=".ideabook_main.ideas_vintage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Vintage"/>
+        <activity
+            android:name=".ideabook_main.ideas_storage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Storage"/>
+        <activity
+            android:name=".ideabook_main.ideas_wall"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Wall Cladding"/>
+        <activity
+            android:name=".advices.AdvicesMain"
+            android:label="Rajany Advices"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".advices.NewPostActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".advices.SignInActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".advices.PostDetailActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".stories.StoriesMain"
+            android:label="Rajany Stories"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".stories.NewPostActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".stories.SignInActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".stories.PostDetailActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_schemes_viewer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Schemes Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_hints_viewer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Hints Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_picks_viewer"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Picks Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_hints_viewer_add"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Hints Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_hints_viewer_delete"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Hints Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_picks_viewer_delete"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Picks Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_schemes_viewer_add"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Schemes Viewer"/>
+        <activity
+            android:name=".colorbook_viewer.colorbook_color_schemes_viewer_delete"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Schemes Viewer"/>
+
+        <activity android:name=".colorbook_main.colorbook_colors_hints"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Hints"/>
+
+        <activity android:name=".colorbook_main.colorbook_colors_schemes"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="Rajany Color Schemes"/>
+    </application>
+
+</manifest>
