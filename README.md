@@ -1,2 +1,6 @@
 # Rajany-Android
-A responsive Android application about Interior/Exterior Design. (Firebase/Java)
+
+<img src="app/src/main/res/drawable/logo.png">
+
+Interior/Exterior Design Responsive Android Application using (Firebase/Java) for [Rajany Design Company](https://www.facebook.com/rajanydesigns)
+
